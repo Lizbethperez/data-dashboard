@@ -70,7 +70,7 @@ header {
 #button-venues {
     font-family: 'Fjalla One', sans-serif;
     position: relative;
-    left: 61%;
+    left: 68%;
     padding: 4px 18px;
     border: none;
     text-decoration: none;
@@ -599,6 +599,18 @@ select {
     font-size: 20px;
 }
 
+/*****************FORMATOS PARA EL BOTON DE CERRAR DENTRO DEL MODAL******************/
+.closeFormat{
+    display: inline-block;
+    position: relative;
+    border: none;
+    left:150px;
+    padding: 2px;
+    border-radius: 2px;
+    font-size: 30px;
+    background-color: transparent;
+
+}
 /*Formato para el button de mostrar lista de alumnas inactivas*/
 #show-window {
     border: none;
@@ -612,15 +624,3 @@ select {
 }
 
 
-/*****************FORMATOS PARA EL BOTON DE CERRAR DENTRO DEL MODAL******************/
-.closeFormat{
-    display: inline-block;
-    position: relative;
-    border: none;
-    left:150px;
-    padding: 2px;
-    border-radius: 2px;
-    font-size: 30px;
-    background-color: transparent;
-
-}
