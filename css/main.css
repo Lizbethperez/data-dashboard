@@ -27,8 +27,8 @@ header {
     position:relative;
     display: inline-block;
     left:34%;
-    bottom: 36vh;
-    color: rgb(100, 99, 99);
+    bottom: 32vh;
+    color: rgb(80, 78, 78);
 }
 
 #logo-venues {
@@ -43,20 +43,51 @@ header {
     position: relative;
     display: inline-block;
     left: 89%;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 100%;
-    bottom:85px;
+    bottom:15vh;
+}
+
+#sign-out{
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    left: 83.3%;
+    padding: 5px 18px;
+    border: none;
+    text-decoration: none;
+    background-color: #ffe521;
+    bottom: 11vh;
+    border: 1px solid  #ccc;
+}
+
+#sign-out:hover{
+    background-color: #ff009e;
+    color:white;
+    cursor: pointer;
+}
+
+#button-venues {
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    left: 61%;
+    padding: 4px 18px;
+    border: none;
+    text-decoration: none;
+    background-color: #ff009e;
+    bottom: 5.5vh;
+    border: 1px solid  rgb(173, 173, 173);
+    color:white;
 }
 
 #avatar-venues {
     position: relative;
     display: inline-block;
     left: 89%;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 100%;
-    bottom:65px;
+    bottom:9vh;
 }
 .format-return{
     position:relative;
@@ -76,6 +107,7 @@ nav {
     display: block;
     left:0;
     bottom: 85px;
+    
 }
 
 #sede-name{
@@ -98,7 +130,7 @@ select {
     border-bottom: 2px solid lightblue;
     height: 30px;
     border-radius: 5px;
-    bottom: 0.5vh;
+    top:1vh;
 }
 
 #generationFilter {
@@ -129,7 +161,7 @@ select {
     position: relative;
     height: 45px;
     width: 280px;
-    color: rgb(158, 158, 158);
+    color: rgb(92, 92, 92);
     margin: 1%;
     left: 55%;
     border: 1px solid #ccc;
@@ -206,32 +238,6 @@ select {
     top:180px;
 }
 
-/*ESTILIZANDO LOS LINKS DE LAS SEDES**/
-
-
-/*.formatLinkSedeYellow{
-    display:block;
-    outline-color: 1px solid black;
-    padding:3em;
-    background-color:#ffe923;
-    text-decoration: none;
-    width:15%;
-    font-family: 'Ultra', serif;
-    font-weight:bolder;
-    text-align: center;
-    font-size: 18px;
-}
-.formatLinkSedelightYellow{
-    background-color: #ffeeb9;
-}
-.formatLinkSedeYellow:hover{
-    border-radius: 10px;
-    opacity: 0.5;
-}
-
-
-/******* Estilos del Tab comineza*************
-
 /* Style the tab */
 .tab {
     overflow: hidden;
@@ -252,7 +258,7 @@ select {
     transition: 0.3s;
     left: 60%;
     margin: 0px 5px;
-    color: rgba(32, 32, 32, 0.829);
+    color: rgba(14, 14, 14, 0.829);
     font-family: 'Fjalla One', sans-serif;
     font-size: 15px;
 }
@@ -274,32 +280,17 @@ select {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    /*border: 1px solid #ccc;*/
     border-top: none;
     height: auto;
 }
-/*Se agrega y divide contenedor para agregar datos generales*/
-
-
-/*.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 5em;
-    grid-gap: 0.5em;
-    width: 50%;
-    position: relative;
-    box-sizing: content-box;
-    border: 1px solid black;
-    top:20%;
-}*/
-
+/*Se agrega grafica de pastel para porcentaje de activas e inactivas*/
 #chart_div {
     position: relative;
     display: inline-block;
     bottom: 10vh;
-    left:30%;
+    left:43%;
 }
-
+/*Se agrega estilo al titulo de las sedes*/
 #all {
     font-family: 'Tajawal', sans-serif;
     position: relative;
@@ -340,7 +331,7 @@ select {
 
 .table {
     position: relative;
-    left: 15%;
+    left: 22%;
     text-align: center;
     top: 2vh;
 
@@ -376,7 +367,6 @@ select {
 
 }
 #containerTable2{
-    
     bottom: 10vh;
     width: 100%;
     position: relative;
@@ -443,7 +433,7 @@ select {
 
 
 #percentSatisfaction{
-    border: 3px solid rgb(153, 153, 153);
+    border: 3px solid rgb(187, 186, 186);
     width: 25%;
     height: 100px;
     display: inline-block;
@@ -451,46 +441,59 @@ select {
     font-family: "Kaffeesatz", sans-serif;
     text-align: center;
     border-radius: 2px;
-    top: 50vh;
+    top: 60vh;
     left: 35%;
 }
 
-#percentSatisfaction p {
+#percentSatisfaction>p{
+    background-color: rgb(187, 186, 186);
     font-weight: bold;
-    background-color:  rgb(187, 186, 186);
 }
+
+#percentSatisfaction :nth-child(2){
+    font-size: 20px;
+}
+
 
 .points-teachers{
     border: 3px solid rgb(153, 153, 153);
     width: 20%;
-    height: 90px;
+    height: 75px;
     display: inline-block;
     position: relative;
     font-family: "Kaffeesatz", sans-serif;
     text-align: center;
     border-radius: 2px;
-    top: 90vh;
+    top: 80vh;
+    left: 1%;
 }
-.points-teachers p{
-    font-weight: bold;
-    background-color: rgb(187, 186, 186);
+.points-teachers>h5{
+    background-color: rgb(153, 153, 153);
 }
 .points-jedi{
     border: 3px solid rgb(153, 153, 153);
     width: 20%;
-    height: 90px;
+    height: 75px;
     display: inline-block;
     position: relative;
     font-family: "Kaffeesatz", sans-serif;
     text-align: center;
     border-radius: 2px;
-    top:90vh;
+    top:80vh;
+    left: 5%;
+}
+.points-jedi>h5{
+    background-color: rgb(153, 153, 153);
 }
 
-.points-jedi p {
+.points-jedi:nth-child(2) {
+    background-color: rgb(153, 153, 153);
+    font-size: 20px;
     font-weight: bold;
-background-color: rgb(187, 186, 186);
 }
+
+
+
 
 /**************************FORMATOS DE LOS PERFILES STUDENTS *************************/
 
@@ -596,13 +599,14 @@ background-color: rgb(187, 186, 186);
     font-size: 20px;
 }
 
+/*Formato para el button de mostrar lista de alumnas inactivas*/
 #show-window {
     border: none;
     padding: 10px;
     background-color: #ffe923;
     border-radius: 2px;
     bottom: 40vh;
-    left: 29%;
+    left: 36%;
     position: relative;
     display: inline-block;
 }
