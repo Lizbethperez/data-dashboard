@@ -292,8 +292,14 @@ En esta Primera Version de Nuestra Herramienta Datadasboard nos concentramos pri
 
 6. Fotografia de Perfil de la Training Manager y la opcion de cerrar la cuenta.
 ```
-### PROTOTIPO VERSION 0.0.1
-
+### VERSION 0.0.1
+![img1](assets/images/Captura.PNG)
+![img1](assets/images/2.PNG)
+![img1](assets/images/3.PNG)
+![img1](assets/images/4.PNG)
+![img1](assets/images/5.PNG)
+![img1](assets/images/6.PNG)
+![img1](assets/images/8.PNG)
 
 ## Pseudo-Codigo:
 
